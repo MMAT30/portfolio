@@ -5,10 +5,10 @@ import Rgv from "../Images/rgv.png";
 
 import Bun from "../Images/bun.png";
 import Ipfs from "../Images/ipfs.png";
-import Rct from "../Images/react.png"
-import Ens from "../Images/ens.png"
-import Ether from "../Images/ether.png"
-import Meta from "../Images/meta.png"
+import Rct from "../Images/react.png";
+import Ens from "../Images/ens.png";
+import Ether from "../Images/ether.png";
+import Meta from "../Images/meta.png";
 
 const Home = () => {
   return (
@@ -84,8 +84,8 @@ const Home = () => {
                   style={{ width: "4%", height: "auto" }}
                 />
               </a>{" "}
-              React {" "}
-              <a href="https://reactjs.org">
+              React{" "}
+              <a href={"https://reactjs.org"}>
                 <img
                   src={Rct}
                   alt="React Logo"
@@ -93,14 +93,13 @@ const Home = () => {
                 />
               </a>{" "}
               IPFS{" "}
-              <a href="https://ipfs.tech">
+              <a href={"https://ipfs.tech"}>
                 <img
                   src={Ipfs}
                   alt="IPFS Logo"
                   style={{ width: "4%", height: "auto" }}
                 />
-              </a>
-              {" "}
+              </a>{" "}
               ENS{" "}
               <a href="https://ens.domains">
                 <img
@@ -108,18 +107,16 @@ const Home = () => {
                   alt="ENS Logo"
                   style={{ width: "4%", height: "auto" }}
                 />
-              </a>
-              {" "}
-              Ethereum {" "}
+              </a>{" "}
+              Ethereum{" "}
               <a href="https://ethereum.org/en/">
                 <img
                   src={Ether}
                   alt="Ethereum Logo"
                   style={{ width: "4%", height: "auto" }}
                 />
-              </a>
-              {" "}
-              MetaMask {" "}
+              </a>{" "}
+              MetaMask{" "}
               <a href="https://metamask.io">
                 <img
                   src={Meta}
