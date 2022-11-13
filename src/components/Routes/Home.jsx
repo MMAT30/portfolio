@@ -3,7 +3,7 @@ import Profile from "../Images/profile.png";
 import Utrgv from "../Images/utrgv.png";
 import Rgv from "../Images/rgv.png";
 
-import Bun from "../Images/bun.png";
+import Node from "../Images/node.png";
 import Ipfs from "../Images/ipfs.png";
 import Rct from "../Images/react.png";
 import Ens from "../Images/ens.png";
@@ -73,15 +73,15 @@ const Home = () => {
 
       <div className="container-fluid bg-secondary shadow-lg">
         <div className="row justify-content-center text-center">
-          <div className="container m-3">
+          <div className="container">
             <p className="lead">
               {" "}
-              Made With Bun{" "}
-              <a href="https://bun.sh">
+              Made With Node {" "}
+              <a href="https://nodejs.org/en/">
                 <img
-                  src={Bun}
-                  alt="Bun Logo"
-                  style={{ width: "4%", height: "auto" }}
+                  src={Node}
+                  alt="Node Logo"
+                  style={{ width: "7%", height: "auto" }}
                 />
               </a>{" "}
               React{" "}
