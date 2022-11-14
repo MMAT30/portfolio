@@ -1,12 +1,14 @@
 import React from "react";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
-import Home from "./components/Routes/Home";
+import Paths from "./components/Routes/Paths"
 
 function App() {
   return (
     <React.Fragment>
       <Header/>
-      <Home/>
+        <Paths/>
+      <Footer/>
     </React.Fragment>
   );
 }

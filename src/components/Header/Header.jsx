@@ -1,40 +1,42 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header>
-      <nav className="navbar navbar-expand-lg bg-light shadow-lg sticky-top">
-        <div className="container-fluid">
+      <header>
+        <nav className="navbar navbar-expand-lg bg-light shadow-lg sticky-top">
+          <div className="container-fluid">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/">
+                <Link className="nav-link" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/">
+                <Link className="nav-link" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/projects">
                   Projects
-                </a>
+                </Link>
               </li>
+
               <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Skills
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/contact">
                   Contact
-                </a>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/contact">
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
-      </nav>
-    </header>
+        </nav>
+      </header>
   );
 };
 
