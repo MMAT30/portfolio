@@ -29,8 +29,8 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/contact">
-                  Contact
+                <Link className="nav-link" to="/donate">
+                  Donate
                 </Link>
               </li>
             </ul>
