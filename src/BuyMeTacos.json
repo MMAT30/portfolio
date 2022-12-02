@@ -1,0 +1,17 @@
+{
+  "hardhat": {
+    "network": "hardhat",
+    "networkID": 31337,
+    "contractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+  },
+  "mainnet": {
+    "network": "mainnet",
+    "networkID": 1,
+    "contractAddress": "0xcD8c79C42323d99CEE1F42011989EfA783196F42"
+  },
+  "goerli": {
+    "network": "goerli",
+    "networkID": 5,
+    "contractAddress": "0x2B9c4b7E89Be66f4317f8CE36FCCF786f6aD4b0C"
+  }
+}
